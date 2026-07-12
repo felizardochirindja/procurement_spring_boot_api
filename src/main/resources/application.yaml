@@ -1,3 +1,6 @@
 spring:
   application:
     name: procurement_spring_boot_api
+
+  mongodb:
+    uri: mongodb://localhost:27017/procurement_spring_boot_api
