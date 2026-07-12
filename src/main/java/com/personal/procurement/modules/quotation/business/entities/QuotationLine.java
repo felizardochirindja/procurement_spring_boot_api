@@ -1,4 +1,4 @@
-package com.personal.procurement.modules.quotation;
+package com.personal.procurement.modules.quotation.business.entities;
 
 import java.math.BigDecimal;
 
@@ -12,8 +12,6 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class QuotationLine {
-    @Field(name = "quotation_id")
-    private String quotationId;
     @Field(name = "product_id")
     private String productId;
     @Field(name = "product_name")

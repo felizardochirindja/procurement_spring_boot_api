@@ -1,4 +1,4 @@
-package com.personal.procurement.modules.quotation;
+package com.personal.procurement.modules.quotation.business.entities;
 
 import org.springframework.data.mongodb.core.mapping.Field;
 
