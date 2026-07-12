@@ -1,4 +1,4 @@
-package com.personal.procurement.modules.request;
+package com.personal.procurement.modules.request.business.entities;
 
 import java.math.BigDecimal;
 

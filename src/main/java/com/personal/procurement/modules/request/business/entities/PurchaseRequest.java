@@ -1,4 +1,4 @@
-package com.personal.procurement.modules.request;
+package com.personal.procurement.modules.request.business.entities;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -30,5 +30,10 @@ public class PurchaseRequest {
     public PurchaseRequest(Status status, String justification) {
         this.status = status;
         this.justification = justification;
+    }
+
+    public PurchaseRequest appendLine(PurchaseRequestLine newLines) {
+        this.lines.add(newLines);
+        return this;
     }
 }

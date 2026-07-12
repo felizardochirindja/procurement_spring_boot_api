@@ -1,4 +1,6 @@
-package com.personal.procurement.modules.request;
+package com.personal.procurement.modules.request.business.entities;
+
+import java.time.LocalDate;
 
 import org.springframework.data.mongodb.core.mapping.Field;
 
@@ -11,7 +13,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class PurchaseRequestApproval {
     @Field(name = "approval_date")
-    private String approvalDate;
+    private LocalDate approvalDate;
     private String notes;
     private Status status;
 
