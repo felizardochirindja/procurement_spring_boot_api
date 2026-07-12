@@ -16,11 +16,13 @@ public class Product {
     private String id;
     @Indexed(unique = true)
     private String code;
+    private String name;
     @Field(name = "measure_unit")
     private String measureUnit;
 
-    public Product(String code, String measureUnit) {
+    public Product(String code, String name, String measureUnit) {
         this.code = code;
+        this.name = name;
         this.measureUnit = measureUnit;
     }
 }
